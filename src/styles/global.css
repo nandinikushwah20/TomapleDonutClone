@@ -1587,6 +1587,16 @@ body{
   overflow-x:hidden;
 }
 
+@media(max-width:900px){
+
+  .heroFullImg{
+    height:auto;          
+    max-height:520px;    
+    object-fit:cover;
+  }
+
+}
+
 @media(max-width:1200px){
   .youtubeSection,
   .instagramSection,
